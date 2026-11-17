@@ -1,6 +1,6 @@
 {
   "name": "@forfeeling/dsh-media-player",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Inline video/animation player for the DSH Web GUI: media_show tool mints short-lived host-served URLs; client plugin renders a native <video> player in the chat flow.",
   "type": "module",
   "main": "lib/index.js",
@@ -28,5 +28,13 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/forfeeling/dsh-media-player.git"
-  }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "media",
+    "video",
+    "player"
+  ]
 }
