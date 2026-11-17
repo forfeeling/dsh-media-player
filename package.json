@@ -1,6 +1,6 @@
 {
-  "name": "dsh-media-player",
-  "version": "0.1.0",
+  "name": "@forfeeling/dsh-media-player",
+  "version": "0.2.0",
   "description": "Inline video/animation player for the DSH Web GUI: media_show tool mints short-lived host-served URLs; client plugin renders a native <video> player in the chat flow.",
   "type": "module",
   "main": "lib/index.js",

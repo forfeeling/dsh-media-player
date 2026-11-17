@@ -1,5 +1,7 @@
 # dsh-media-player
 
+> 📦 npm package renamed to **`@forfeeling/dsh-media-player`** (unscoped name taken by someone else). Install: `dsh plugin add @forfeeling/dsh-media-player`
+
 Inline **video / animation player** for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web GUI.
 
 The harness attachment system only accepts `png/jpeg/webp/gif`, and its README
@@ -41,7 +43,7 @@ The plugin is a Cordis loader entry with a `dsh.client` browser bundle.
 2. Link it into your Web profile so the bare specifier resolves:
 
    ```bash
-   ln -s ~/dsh-media-player "$HOME/.dsh/profiles/web/node_modules/dsh-media-player"
+   ln -s ~/dsh-media-player "$HOME/.dsh/profiles/web/node_modules/@forfeeling/dsh-media-player"
    ```
 
    (its only runtime dep, `@deepseek-ai/dsh-tools`, is symlinked the same way
@@ -51,7 +53,7 @@ The plugin is a Cordis loader entry with a `dsh.client` browser bundle.
    ```yaml
    - insert:
        - id: dsh-media-player
-         name: dsh-media-player
+         name: "@forfeeling/dsh-media-player"
    ```
 
 4. **Restart `dsh web`** — client-package metadata is cached per name for the
