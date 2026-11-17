@@ -16,5 +16,17 @@
       ],
       "platform": "web"
     }
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forfeeling/dsh-media-player.git"
   }
 }
