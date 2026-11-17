@@ -1,13 +1,14 @@
 {
   "name": "@forfeeling/dsh-media-player",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Inline video/animation player for the DSH Web GUI: media_show tool mints short-lived host-served URLs; client plugin renders a native <video> player in the chat flow.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
     ".": "./lib/index.js",
     "./client": "./lib/client.js",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
   },
   "dsh": {
     "client": {
@@ -15,10 +16,14 @@
         "@deepseek-ai/dsh-client-runtime"
       ],
       "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
     }
   },
   "files": [
     "lib",
+    "cordis.patch.yml",
     "README.md",
     "LICENSE"
   ],

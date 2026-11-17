@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-media-player
+      name: "@forfeeling/dsh-media-player"
